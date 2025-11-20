@@ -1,6 +1,6 @@
 # Long-term trends in aquatic communities of mesotrophic lakes along a land-use gradient in eastern Canada
 
-<p align="center"><img src='images/graphical_abstract.png' align="center" height="300"></p>
+<p align="center"><img src='graphical_abstract.png' align="center" height="300"></p>
 
 Scripts associated with the article
 
