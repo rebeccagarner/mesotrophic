@@ -1,7 +1,4 @@
-# Format ASVs
-
-#setwd("~/Google Drive/paul_and_rebeccas_projects/2022 LP sediment project/")
-setwd("~/reb.garner@gmail.com - Google Drive/My Drive/projects/paul_and_rebeccas_projects/2022 LP sediment project/")
+# Curate ASVs
 
 # Load libraries
 library(tidyverse)
@@ -76,21 +73,6 @@ asv_melt <- asv_melt %>%
 length(unique(asv_melt$sample_id))  # Number of samples (86)
 length(unique(asv_melt$asv_code))  # Number of retained ASVs (13508)
 sum(asv_melt$nseqs)  # Number of total sequences (4940063)
-
-
-# #### Curate samples ####
-# # Remove samples with fewer than 10,000 sequences
-# samples_rm <- asv_melt %>%
-#   group_by(sample_id) %>%
-#   summarize(nseqs = sum(nseqs)) %>%
-#   ungroup() %>%
-#   filter(nseqs < 10000) %>%
-#   pull(sample_id)
-# samples_rm  # Remove samples "06-199_8.25" and "06-199_9.25"
-# 
-# asv_melt <- asv_melt %>%
-#   filter(!sample_id %in% samples_rm)
-# length(unique(asv_melt$sample_id))  # Number of retained samples
 
 
 #### Curate ASVs based on taxonomy ####
