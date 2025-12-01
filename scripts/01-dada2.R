@@ -9,7 +9,7 @@ library(tidyverse)
 # Print system time
 print(paste0("Program start: ", Sys.time()))
 
-# Identify 2019 samples
+# Identify samples
 (samples <- scan("sediment2022_samples.txt", what = "character"))
 
 # Locate and name DADA2-filtered forward and reverse read files
