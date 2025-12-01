@@ -1,8 +1,5 @@
 # Run DADA2 pipeline on Cutadapt-trimmed reads
-# For LakePulse 2019 surface water 16S rRNA gene amplicon sequencing data
 # https://benjjneb.github.io/dada2/bigdata_paired.html
-
-setwd("~/Google Drive/paul_and_rebeccas_projects/2022 LP sediment project/filtered_samples/")
 
 # Load packages
 library(dada2)
