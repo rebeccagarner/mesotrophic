@@ -1,6 +1,4 @@
-# Read tracking through DADA2
-
-setwd("~/Google Drive/paul_and_rebeccas_projects/2022 LP sediment project/")
+# Read tracking through DADA2 pipeline
 
 library(tidyverse)
 
