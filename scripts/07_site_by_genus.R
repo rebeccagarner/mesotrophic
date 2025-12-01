@@ -1,7 +1,4 @@
-# Format ASVs
-
-#setwd("~/Google Drive/paul_and_rebeccas_projects/2022 LP sediment project/")
-setwd("~/reb.garner@gmail.com - Google Drive/My Drive/projects/paul_and_rebeccas_projects/2022 LP sediment project/")
+# Format site by genus matrix
 
 # Load libraries
 library(tidyverse)
@@ -91,7 +88,6 @@ sum(site_by_genus_separate_unclassifieds[,-c(1:3)]) == sum(asv_melt$nseqs)  # Sh
 
 
 #### Format site by order table(s) ####
-
 # Collapse sequences by sample and order
 order_melt <- asv_melt %>%
   group_by(sample_id, lake_id, midpoint, kingdom, phylum, class, order) %>%
