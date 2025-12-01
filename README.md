@@ -12,14 +12,10 @@ King L, MacKeigan P, Garner RE, Aucoin ME, Beisner BE, Domaizon I, Smol JP, Greg
 
 ## scripts/
 
-- **01_dada2.R** Desc.
-- **02_dada2_bimeras.R** Desc.
-- **03_dada2_taxonomy.R** Desc.
-- **04_dada2_readtracking.R** Desc.
-- **005_format_asvs.R** Desc.
-- **06_curate_data.R** Desc.
-- **07_barplots.R** Desc.
-- **08_site_by_genus.R** Desc.
-- **cyano_nseqs.R** Desc.
-- **mesotrophic.R** Desc.
-- **orders_nseqs.R** Desc.
+- **01-dada2.R** Initiate DADA2 pipeline on DNA reads (previously trimmed in Cutadapt): learn error rates, dereplicate reads, infer ASVs, merge paired-end reads, and construct sequence table.
+- **02-dada2_bimeras.R** In DADA2, remove chimeric ASVs.
+- **03-dada2_taxonomy.R** In DADA2, assign ASV taxonomy.
+- **04-dada2_readtracking.R** Track sequence loss through the DADA2 pipeline.
+- **05-format_asvs.R** Format ASVs by assigning unique ASV codes, joining sequence and taxonomy information, and parsing sample names.
+- **06-curate_asvs.R** Curate ASVs by removing global singletons and doubletons and retaining taxa of interest (class Cyanobacteriia).
+- **07-site_by_genus.R** Format site by genus matrix for ASVs assigned to Cyanobacteriia.
