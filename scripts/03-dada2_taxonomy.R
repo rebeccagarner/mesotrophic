@@ -1,5 +1,4 @@
 # Assign taxonomy with custom Silva_curated+Ramos+BOLD Cyanobacteria database
-# https://benjjneb.github.io/dada2/bigdata_paired.html
 
 # Load packages
 library(dada2)
