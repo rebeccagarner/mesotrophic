@@ -1,7 +1,5 @@
 # Format ASVs
 
-setwd("~/Google Drive/paul_and_rebeccas_projects/2022 LP sediment project/")
-
 # Load libraries
 library(tidyverse)
 library(seqinr)
