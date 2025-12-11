@@ -6,7 +6,7 @@ Scripts associated with the article
 
 ---
 
-King L, MacKeigan P, Garner RE, Aucoin ME, Beisner BE, Domaizon I, Smol JP, Gregory-Eaves I. Long-term trends in aquatic communities of mesotrophic lakes along a land-use gradient in eastern Canada.
+King L, MacKeigan PW, Garner RE, Aucoin ME, Beisner BE, Domaizon I, Smol JP, Gregory-Eaves I. Long-term trends in aquatic communities of mesotrophic lakes along a land-use gradient in eastern Canada. *Anthropocene* **53**, 100507. https://doi.org/10.1016/j.ancene.2025.100507.
 
  ---
 
